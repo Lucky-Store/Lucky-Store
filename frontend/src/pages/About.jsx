@@ -86,21 +86,9 @@ const About = () => {
           )}
         </div>
       </div>
-      <div className="w-[1000px] h-[600px] m-auto">
+      <div className="w-[1150px] h-[750px] m-auto">
         <p className="text-4xl text-center text-gray-200">
-          Founded in 2009, T-shirt Factory started out with a single booth in
-          City Stars. T-Shirt Factory is the first Egyptian brand to provide
-          easy access to printed customized t-shirts and the first to introduce
-          direct to garment digital printing to the Egyptian market. The brand
-          dominated the market with with its presence in almost all of Egypt’s
-          top shopping malls. City Stars, Mall of Arabia, Cairo Festival to name
-          a few. Our main goal is to help our customers put their own concept/
-          design on a wearable garment. You imagine and we Print! Whether
-          Digital printing or vinyl cutting, you get to watch your T-shirt being
-          made on the spot. Not only do we offer high quality cotton t-shirts,
-          but also we have a trained staff that will help you execute your
-          concept. You do not have to wait for trends to be in stores anymore,
-          You can print anything and anytime, within minutes!
+          Welcome to our sportswear store! We are passionate about providing athletes, fitness enthusiasts, and active individuals with high-quality sportswear that combines style, comfort, and performance. At our store, we believe that sportswear should not only enhance your performance but also reflect your unique personality. That's why we curate a wide range of sport clothing options from top brands, ensuring that you'll find the perfect fit for your active lifestyle. Our team is dedicated to staying up-to-date with the latest trends and technologies in sportswear, bringing you innovative designs, eco-friendly materials, and advanced features to optimize your athletic endeavors. We strive to offer a seamless online shopping experience, with user-friendly navigation, detailed product descriptions, and helpful sizing guides to assist you in finding the perfect gear.
         </p>
       </div>
     </main>
