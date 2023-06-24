@@ -24,7 +24,7 @@ const Store = () => {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:3000/api/v1/products")
+    fetch("https://lucky-store.onrender.com/api/v1/products")
       .then((res) => res.json())
       .then(({ data }) => {
         if (filter == "all") {
