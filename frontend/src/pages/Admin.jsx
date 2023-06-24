@@ -12,7 +12,7 @@ const Admin = () => {
   const { logout } = useLogout();
   const navigate = useNavigate();
   useEffect(() => {
-    fetch("http://localhost:3000/api/v1/orders")
+    fetch("https://lucky-store.onrender.com/api/v1/orders")
       .then((res) => res.json())
       .then(({ data }) => {
         setOrders(data);
