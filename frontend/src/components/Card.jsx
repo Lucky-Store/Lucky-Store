@@ -12,7 +12,7 @@ const Card = ({ title, price, img, id }) => {
       transition={{ type: "tween" }}
       className="rounded-xl overflow-hidden bg-gray-300 p-2 pb-6"
     >
-      <a href={`/store/${id}`}>
+      <a href={`/product/${id}`}>
         <div className="flex justify-center items-center p-4">
           <img src={img} alt="shirt" className="w-8/12 h-[180px] rounded-lg" />
         </div>
