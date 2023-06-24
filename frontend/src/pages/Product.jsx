@@ -17,7 +17,6 @@ const Product = () => {
   const { addToCart } = useCartContext();
 
   useEffect(() => {
-    console.log(id);
     fetch(`https://lucky-store.onrender.com/api/v1/product/${id}`)
       .then((res) => res.json())
       .then(({ data }) => {
