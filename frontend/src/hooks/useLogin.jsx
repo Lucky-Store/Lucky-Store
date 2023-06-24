@@ -12,7 +12,7 @@ export const useLogin = () => {
     setIsLoading(true);
     setError(null);
 
-    const res = await fetch("http://localhost:3000/api/v1/user/login", {
+    const res = await fetch("https://lucky-store.onrender.com/api/v1/user/login", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ email, password }),
